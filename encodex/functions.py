@@ -19,7 +19,6 @@ class Functions:
         Core.log(f"Saving obfuscated code to {filename}")
         obfuscated_code = Functions.obfuscate(code)
         
-        # Save the obfuscated code to the file with exec and decoding inside
         with open(filename, "w", encoding="utf-8") as f:
             f.write(obfuscated_code)
         
