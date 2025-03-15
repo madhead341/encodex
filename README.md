@@ -24,7 +24,7 @@ Core.set_debug(state=True, log_to_file=True)
 
 For setting the EncodeX decryption key, use encodex.Strings.set_key
 ```py
-encodex.Strings.set_key(key) # key is 1-95 (default key is 42)
+encodex.Strings.set_key(key) # key is 1-95 (default key is 69)
 ```
 
 ## Usage
