@@ -43,25 +43,3 @@ decoded = encodex.Strings.decode(encoded)
 print(f"Encoded: {encoded}")
 print(f"Decoded: {decoded}")
 ```
-
-For obfuscating python code, use
-```py
-import encodex
-from encodex import Functions
-
-# Example code to obfuscate
-code = 'print("This is a secret!")'
-
-# Obfuscate the code
-obfuscated = Functions.obfuscate(code)
-
-print(f"Obfuscated code: {obfuscated}")
-```
-```py
-# Save the obfuscated code to a file
-Functions.save(code, "obfuscated_code.py")
-```
-```py
-# Run the obfuscated code
-Functions.run(code)
-```
