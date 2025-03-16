@@ -2,7 +2,6 @@ import logging
 import os
 from colorama import init, Fore
 
-# Initialize colorama
 init(autoreset=True)
 
 class Core:
@@ -11,7 +10,7 @@ class Core:
     debug = True  # Debug (Default = True)
     
     user_home = os.path.expanduser("~")
-    log_file = os.path.join(user_home, "encodex.log")  # Log file
+    log_file = os.path.join(user_home, "encodex.log")
 
     @staticmethod
     def set_debug(state: bool, log_to_file: bool = False):
