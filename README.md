@@ -1,6 +1,6 @@
 # Encodex
 
-Encodex is a Python package for string encoding, obfuscation, and encryption. It provides a custom **Base95** encoding method, designed to help with basic obfuscation and encryption tasks.
+Encodex is a Python package for string encoding/encryption. It provides a custom **Base95** encoding method, designed to help with basic obfuscation or encryption tasks.
 
 ## Features:
 - **Base95 encoding** for string obfuscation.
